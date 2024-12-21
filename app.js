@@ -1,6 +1,6 @@
 function date() {
     const now = new Date();
-    const birthdate = new Date('2024-12-27T12:30:00');
+    const birthdate = new Date('2024-12-27T13:00:00');
 
     const difference_ms = Math.abs(birthdate - now);
     const duration = Math.floor(difference_ms/1000);
